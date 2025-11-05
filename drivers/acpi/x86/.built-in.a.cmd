@@ -1,1 +1,0 @@
-savedcmd_drivers/acpi/x86/built-in.a := rm -f drivers/acpi/x86/built-in.a;  printf "drivers/acpi/x86/%s " apple.o cmos_rtc.o lpss.o s2idle.o utils.o blacklist.o | xargs ar cDPrST drivers/acpi/x86/built-in.a

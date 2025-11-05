@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/rockchip/built-in.a := rm -f drivers/media/platform/rockchip/built-in.a;  printf "drivers/media/platform/rockchip/%s " rga/built-in.a rkisp1/built-in.a | xargs ar cDPrST drivers/media/platform/rockchip/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/mediatek/vcodec/common/built-in.a := rm -f drivers/media/platform/mediatek/vcodec/common/built-in.a;  ar cDPrST drivers/media/platform/mediatek/vcodec/common/built-in.a

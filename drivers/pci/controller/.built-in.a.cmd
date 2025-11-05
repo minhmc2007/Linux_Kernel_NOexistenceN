@@ -1,1 +1,0 @@
-savedcmd_drivers/pci/controller/built-in.a := rm -f drivers/pci/controller/built-in.a;  printf "drivers/pci/controller/%s " dwc/built-in.a mobiveil/built-in.a plda/built-in.a | xargs ar cDPrST drivers/pci/controller/built-in.a
