@@ -1,0 +1,17 @@
+!<thin>
+//                                              106       `
+aperture.o/
+cmdline.o/
+nomodeset.o/
+hdmi.o/
+console/dummycon.o/
+console/vgacon.o/
+backlight/backlight.o/
+
+/0              0           0     0     644     7424      `
+/12             0           0     0     644     3896      `
+/23             0           0     0     644     3160      `
+/36             0           0     0     644     34584     `
+/44             0           0     0     644     5016      `
+/64             0           0     0     644     49616     `
+/82             0           0     0     644     23896     `

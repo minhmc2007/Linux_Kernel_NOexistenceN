@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/modules.order := {   echo net/netfilter/nf_log_syslog.o;   echo net/netfilter/xt_mark.o;   echo net/netfilter/xt_nat.o;   echo net/netfilter/xt_LOG.o;   echo net/netfilter/xt_MASQUERADE.o;   echo net/netfilter/xt_addrtype.o; :; } > net/netfilter/modules.order

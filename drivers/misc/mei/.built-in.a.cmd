@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/mei/built-in.a := rm -f drivers/misc/mei/built-in.a;  printf "drivers/misc/mei/%s " init.o hbm.o interrupt.o client.o main.o dma-ring.o bus.o bus-fixup.o debugfs.o mei-trace.o pci-me.o hw-me.o | xargs ar cDPrST drivers/misc/mei/built-in.a

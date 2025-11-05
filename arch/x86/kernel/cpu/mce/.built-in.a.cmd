@@ -1,0 +1,1 @@
+savedcmd_arch/x86/kernel/cpu/mce/built-in.a := rm -f arch/x86/kernel/cpu/mce/built-in.a;  printf "arch/x86/kernel/cpu/mce/%s " core.o severity.o genpool.o intel.o amd.o threshold.o | xargs ar cDPrST arch/x86/kernel/cpu/mce/built-in.a

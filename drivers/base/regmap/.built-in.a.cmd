@@ -1,0 +1,1 @@
+savedcmd_drivers/base/regmap/built-in.a := rm -f drivers/base/regmap/built-in.a;  printf "drivers/base/regmap/%s " regmap.o regcache.o regcache-rbtree.o regcache-flat.o regcache-maple.o regmap-debugfs.o | xargs ar cDPrST drivers/base/regmap/built-in.a

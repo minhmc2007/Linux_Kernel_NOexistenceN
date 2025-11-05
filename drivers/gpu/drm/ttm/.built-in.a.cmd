@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/ttm/built-in.a := rm -f drivers/gpu/drm/ttm/built-in.a;  printf "drivers/gpu/drm/ttm/%s " ttm_tt.o ttm_bo.o ttm_bo_util.o ttm_bo_vm.o ttm_module.o ttm_execbuf_util.o ttm_range_manager.o ttm_resource.o ttm_pool.o ttm_device.o ttm_sys_manager.o ttm_agp_backend.o | xargs ar cDPrST drivers/gpu/drm/ttm/built-in.a

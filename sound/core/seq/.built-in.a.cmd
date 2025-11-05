@@ -1,0 +1,1 @@
+savedcmd_sound/core/seq/built-in.a := rm -f sound/core/seq/built-in.a;  printf "sound/core/seq/%s " seq.o seq_lock.o seq_clientmgr.o seq_memory.o seq_queue.o seq_fifo.o seq_prioq.o seq_timer.o seq_system.o seq_ports.o seq_info.o seq_dummy.o | xargs ar cDPrST sound/core/seq/built-in.a

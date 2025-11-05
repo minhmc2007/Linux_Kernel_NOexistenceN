@@ -376,9 +376,10 @@
 #define __NR_lsm_set_self_attr 460
 #define __NR_lsm_list_modules 461
 #define __NR_mseal 462
+#define __NR_get_kernel_mood 548
 
 #ifdef __KERNEL__
-#define __NR_syscalls 463
+#define __NR_syscalls 549
 #endif
 
 #endif /* _UAPI_ASM_UNISTD_64_H */

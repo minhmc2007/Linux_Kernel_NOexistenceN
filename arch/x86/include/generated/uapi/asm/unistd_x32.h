@@ -365,9 +365,10 @@
 #define __NR_execveat (__X32_SYSCALL_BIT + 545)
 #define __NR_preadv2 (__X32_SYSCALL_BIT + 546)
 #define __NR_pwritev2 (__X32_SYSCALL_BIT + 547)
+#define __NR_get_kernel_mood (__X32_SYSCALL_BIT + 548)
 
 #ifdef __KERNEL__
-#define __NR_syscalls 548
+#define __NR_syscalls 549
 #endif
 
 #endif /* _UAPI_ASM_UNISTD_X32_H */

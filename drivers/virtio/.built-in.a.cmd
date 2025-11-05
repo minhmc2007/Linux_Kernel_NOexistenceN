@@ -1,0 +1,1 @@
+savedcmd_drivers/virtio/built-in.a := rm -f drivers/virtio/built-in.a;  printf "drivers/virtio/%s " virtio.o virtio_ring.o virtio_anchor.o virtio_pci_modern_dev.o virtio_pci_legacy_dev.o virtio_pci_modern.o virtio_pci_common.o virtio_pci_legacy.o virtio_pci_admin_legacy_io.o virtio_input.o virtio_dma_buf.o | xargs ar cDPrST drivers/virtio/built-in.a

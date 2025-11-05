@@ -1,0 +1,1 @@
+savedcmd_arch/x86/mm/built-in.a := rm -f arch/x86/mm/built-in.a;  printf "arch/x86/mm/%s " init.o init_64.o fault.o ioremap.o extable.o mmap.o pgtable.o physaddr.o tlb.o cpu_entry_area.o maccess.o pgprot.o pat/built-in.a hugetlbpage.o dump_pagetables.o numa.o numa_64.o amdtopology.o srat.o pkeys.o kaslr.o pti.o | xargs ar cDPrST arch/x86/mm/built-in.a

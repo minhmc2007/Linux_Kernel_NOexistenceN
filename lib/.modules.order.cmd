@@ -1,0 +1,1 @@
+savedcmd_lib/modules.order := {   cat lib/math/modules.order;   cat lib/crypto/modules.order;   cat lib/zlib_inflate/modules.order;   cat lib/zlib_deflate/modules.order;   cat lib/lzo/modules.order;   cat lib/lz4/modules.order;   cat lib/zstd/modules.order;   cat lib/xz/modules.order;   cat lib/dim/modules.order;   cat lib/fonts/modules.order; :; } > lib/modules.order

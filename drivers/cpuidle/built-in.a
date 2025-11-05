@@ -1,0 +1,18 @@
+!<thin>
+//                                              116       `
+cpuidle.o/
+driver.o/
+governor.o/
+sysfs.o/
+governors/menu.o/
+governors/haltpoll.o/
+poll_state.o/
+cpuidle-haltpoll.o/
+/0              0           0     0     644     25576     `
+/11             0           0     0     644     7432      `
+/21             0           0     0     644     4888      `
+/33             0           0     0     644     20936     `
+/42             0           0     0     644     6296      `
+/60             0           0     0     644     7832      `
+/82             0           0     0     644     3032      `
+/96             0           0     0     644     9488      `

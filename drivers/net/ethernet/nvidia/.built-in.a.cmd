@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/nvidia/built-in.a := rm -f drivers/net/ethernet/nvidia/built-in.a;  printf "drivers/net/ethernet/nvidia/%s " forcedeth.o | xargs ar cDPrST drivers/net/ethernet/nvidia/built-in.a

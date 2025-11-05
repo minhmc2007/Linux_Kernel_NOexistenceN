@@ -1,0 +1,1 @@
+cmd_/home/minh/Linux_Kernel_NOexistenceN/tools/objtool/arch/x86/objtool-in.o :=  ld -r -o /home/minh/Linux_Kernel_NOexistenceN/tools/objtool/arch/x86/objtool-in.o  /home/minh/Linux_Kernel_NOexistenceN/tools/objtool/arch/x86/special.o /home/minh/Linux_Kernel_NOexistenceN/tools/objtool/arch/x86/decode.o /home/minh/Linux_Kernel_NOexistenceN/tools/objtool/arch/x86/orc.o

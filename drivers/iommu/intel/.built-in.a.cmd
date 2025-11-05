@@ -1,0 +1,1 @@
+savedcmd_drivers/iommu/intel/built-in.a := rm -f drivers/iommu/intel/built-in.a;  printf "drivers/iommu/intel/%s " dmar.o iommu.o pasid.o nested.o cache.o trace.o cap_audit.o perfmon.o | xargs ar cDPrST drivers/iommu/intel/built-in.a

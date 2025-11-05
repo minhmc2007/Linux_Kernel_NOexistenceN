@@ -1,0 +1,1 @@
+savedcmd_drivers/pcmcia/built-in.a := rm -f drivers/pcmcia/built-in.a;  printf "drivers/pcmcia/%s " cs.o socket_sysfs.o cardbus.o ds.o pcmcia_resource.o cistpl.o pcmcia_cis.o rsrc_mgr.o rsrc_nonstatic.o yenta_socket.o | xargs ar cDPrST drivers/pcmcia/built-in.a

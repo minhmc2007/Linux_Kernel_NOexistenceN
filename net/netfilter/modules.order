@@ -1,0 +1,6 @@
+net/netfilter/nf_log_syslog.o
+net/netfilter/xt_mark.o
+net/netfilter/xt_nat.o
+net/netfilter/xt_LOG.o
+net/netfilter/xt_MASQUERADE.o
+net/netfilter/xt_addrtype.o

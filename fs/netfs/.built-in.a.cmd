@@ -1,0 +1,1 @@
+savedcmd_fs/netfs/built-in.a := rm -f fs/netfs/built-in.a;  printf "fs/netfs/%s " buffered_read.o buffered_write.o direct_read.o direct_write.o iterator.o locking.o main.o misc.o objects.o read_collect.o read_pgpriv2.o read_retry.o write_collect.o write_issue.o | xargs ar cDPrST fs/netfs/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/modules.order := {   cat drivers/media/platform/mediatek/vcodec/common/modules.order;   cat drivers/media/platform/mediatek/vcodec/encoder/modules.order;   cat drivers/media/platform/mediatek/vcodec/decoder/modules.order; :; } > drivers/media/platform/mediatek/vcodec/modules.order

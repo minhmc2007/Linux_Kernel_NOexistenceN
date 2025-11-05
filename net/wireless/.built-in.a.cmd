@@ -1,0 +1,1 @@
+savedcmd_net/wireless/built-in.a := rm -f net/wireless/built-in.a;  printf "net/wireless/%s " core.o sysfs.o radiotap.o util.o reg.o scan.o nl80211.o mlme.o ibss.o sme.o chan.o ethtool.o mesh.o ap.o trace.o ocb.o pmsr.o shipped-certs.o tests/built-in.a | xargs ar cDPrST net/wireless/built-in.a
