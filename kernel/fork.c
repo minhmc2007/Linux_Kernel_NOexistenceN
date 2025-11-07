@@ -1811,6 +1811,10 @@ static int copy_sighand(u64 clone_flags, struct task_struct *tsk)
 {
 	struct sighand_struct *sig;
 
+	if (clone_flags & CLONE_NO_SIGHAND) {
+		return 0;
+	}
+
 	if (clone_flags & CLONE_SIGHAND) {
 		refcount_inc(&current->sighand->count);
 		return 0;
